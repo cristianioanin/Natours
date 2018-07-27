@@ -59,4 +59,50 @@ The project is written in Sass and follows the 7-1 CSS Architecture.
 · How to create CSS text columns
 · How to automatically hyphenate words using hyphens
 
-Coming up: Advanced Responsive Design techniques will be added to the project
+Advanced Responsive Design
+
+· How to use a powerful Sass mixin to write all the media queries
+· How to use the @content and @if Sass directives
+· Taking advantage of Chrome DevTools for responsive design
+· 
+· 
+· 
+· 
+· 
+· 
+· 
+· 
+· 
+· 
+· 
+· 
+· 
+· 
+· 
+· 
+· 
+· 
+· 
+· 
+· 
+· 
+· 
+· 
+· 
+· 
+· 
+· 
+· 
+· 
+· 
+· 
+· 
+· 
+· 
+· 
+· 
+· 
+· 
+· 
+· 
+· 
