@@ -536,7 +536,8 @@ body {
     @media (max-width: 56.25em) {
       .popup__content {
         display: block;
-        width: 80%; } }
+        width: 80%;
+        height: 80%; } }
   .popup__left {
     width: 33.33333%;
     display: table-cell; }
