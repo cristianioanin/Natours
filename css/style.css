@@ -537,7 +537,7 @@ body {
       .popup__content {
         display: block;
         width: 80%;
-        height: 80%; } }
+        height: 95%; } }
   .popup__left {
     width: 33.33333%;
     display: table-cell; }
