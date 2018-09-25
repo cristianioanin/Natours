@@ -7,7 +7,7 @@
 
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/icon-font.css">
+    <!-- <link rel="stylesheet" href="css/icon-font.css"> -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" type="image/png" href="img/favicon.png">
 
@@ -76,7 +76,8 @@
                         You're going to fall in love with nature
                     </h3>
                     <p class="paragraph">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus perspiciatis quaerat sit, dolore eaque corporis ut labore
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus perspiciatis quaerat sit, dolore
+                        eaque corporis ut labore
                         voluptates blanditiis fugiat eius ipsa, beatae reiciendis maiores.
                     </p>
 
@@ -84,7 +85,8 @@
                         Live adventures like you never have before
                     </h3>
                     <p class="paragraph">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi similique modi nihil! Et dolores ea at est, sapiente quasi
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi similique modi nihil! Et
+                        dolores ea at est, sapiente quasi
                         unde harum.
                     </p>
 
@@ -92,9 +94,13 @@
                 </div>
                 <div class="col-1-of-2">
                     <div class="composition">
-                        <img src="img/nat-1-large.jpg" alt="Photo 1" class="composition__photo composition__photo--p1">
-                        <img src="img/nat-2-large.jpg" alt="Photo 2" class="composition__photo composition__photo--p2">
-                        <img src="img/nat-3-large.jpg" alt="Photo 3" class="composition__photo composition__photo--p3">
+
+                        <img srcset="img/nat-1.jpg 300w, img/nat-1-large.jpg 1000w" sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 1000px"
+                            alt="Photo 1" class="composition__photo composition__photo--p1" src="img/nat-1-large.jpg">
+                        <img srcset="img/nat-2.jpg 300w, img/nat-2-large.jpg 1000w" sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 1000px"
+                            alt="Photo 2" class="composition__photo composition__photo--p2" src="img/nat-2-large.jpg">
+                        <img srcset="img/nat-3.jpg 300w, img/nat-3-large.jpg 1000w" sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 1000px"
+                            alt="Photo 3" class="composition__photo composition__photo--p3" src="img/nat-3-large.jpg">
                     </div>
                 </div>
             </div>
@@ -108,7 +114,8 @@
                         <i class="feature-box__icon icon-basic-world"></i>
                         <h3 class="heading-tertiary u-margin-bottom-small">Explore the world</h3>
                         <p class="feature-box__text">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, ipsum. Magni voluptas earum.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, ipsum. Magni voluptas
+                            earum.
                         </p>
                     </div>
                 </div>
@@ -126,7 +133,8 @@
                         <i class="feature-box__icon icon-basic-map"></i>
                         <h3 class="heading-tertiary u-margin-bottom-small">Find your way</h3>
                         <p class="feature-box__text">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur voluptatem, hic reiciendis.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur voluptatem, hic
+                            reiciendis.
                         </p>
                     </div>
                 </div>
@@ -274,8 +282,10 @@
                             I had the best week ever with my family
                         </h3>
                         <p>
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro pariatur accusamus similique explicabo, repudiandae culpa
-                            saepe id quis totam inventore error neque! Nihil blanditiis architecto facere quae recusandae,
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro pariatur accusamus
+                            similique explicabo, repudiandae culpa
+                            saepe id quis totam inventore error neque! Nihil blanditiis architecto facere quae
+                            recusandae,
                             quod rem. Totam inventore error neque! Nihil blanditiis architecto facere quae.
                         </p>
                     </div>
@@ -295,8 +305,10 @@
                             Wow! My life is completely different now
                         </h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut voluptatibus dolorum tenetur labore. Consectetur unde beatae
-                            placeat mollitia eaque incidunt, quia iusto necessitatibus nihil cumque fugiat tempore quibusdam
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut voluptatibus dolorum tenetur
+                            labore. Consectetur unde beatae
+                            placeat mollitia eaque incidunt, quia iusto necessitatibus nihil cumque fugiat tempore
+                            quibusdam
                             quod quae.
                         </p>
                     </div>
@@ -355,7 +367,10 @@
 
     <footer class="footer">
         <div class="footer__logo-box">
-            <img src="img/logo-green-2x.png" alt="Full logo" class="footer__logo">
+            <picture class="footer__logo">
+                <source srcset="img/logo-green-small-1x.png 1x, img/logo-green-small-2x.png 2x" media="(max-width: 37.5em)">
+                <img srcset="img/logo-green-1x.png 1x, img/logo-green-2x.png 2x" alt="Full logo" src="img/logo-green-2x.png">
+            </picture>
         </div>
         <div class="row">
             <div class="col-1-of-2">
@@ -400,12 +415,18 @@
             <div class="popup__right">
                 <a href="#tours" class="popup__close">&times;</a>
                 <h2 class="heading-secondary u-margin-bottom-small">Start booking now</h2>
-                <h3 class="heading-tertiary u-margin-bottom-small">Important &ndash; Please read these terms before booking</h3>
-                <p class="popup__text">For grass dry cattle his called. Spirit for, won't isn't waters tree make fifth give. Was after. Firmament
-                    in whales moved upon, seasons. Over it. Behold. Grass may without lesser. Were appear all grass. Had,
-                    the sea so above given there is after may whales life. Earth seasons made give very also lights very
-                    the day be behold greater. It there abundantly replenish called gathered fill make moved heaven. For
-                    creepeth all. Image image him They're was beast face living upon thing won't spirit green seasons midst
+                <h3 class="heading-tertiary u-margin-bottom-small">Important &ndash; Please read these terms before
+                    booking</h3>
+                <p class="popup__text">For grass dry cattle his called. Spirit for, won't isn't waters tree make fifth
+                    give. Was after. Firmament
+                    in whales moved upon, seasons. Over it. Behold. Grass may without lesser. Were appear all grass.
+                    Had,
+                    the sea so above given there is after may whales life. Earth seasons made give very also lights
+                    very
+                    the day be behold greater. It there abundantly replenish called gathered fill make moved heaven.
+                    For
+                    creepeth all. Image image him They're was beast face living upon thing won't spirit green seasons
+                    midst
                     winged grass, is won't said lights lesser seas waters fly morning without good.</p>
                 <a href="#" class="btn btn--green">Book now</a>
             </div>
