@@ -27,11 +27,15 @@ The project is written in Sass and follows the 7-1 CSS Architecture.
 · Another way of creating the "skewed section" design
 · How and when to use the direct child selector
 
+![Components](/screenshots/2019-03-09%20(1).png)
+
 · How to build an amazing, rotating card
 · How to use perspective in CSS
 · How to use the backface-visibility property
 · Using background blend modes
 · How and when to use box-decoration-break
+
+![Rotating Cards](/screenshots/2019-03-09%20(3).png)
 
 · How to make text flow around shapes with shape-outside and float
 · How to apply a filter to images
@@ -45,6 +49,8 @@ The project is written in Sass and follows the 7-1 CSS Architecture.
 · How and when to use the :focus, :invalid, :placeholder-shown and :checked pseudo-classes
 · Techniques to build custom radio buttons
 
+![Components](/screenshots/2019-03-09%20(5).png)
+
 · How to design a simple website footer
 
 · What the "checkbox hack" is and how it works
@@ -52,6 +58,8 @@ The project is written in Sass and follows the 7-1 CSS Architecture.
 · How to animate "solid-color gradients"
 · How and why to use transform origin
 · In general: create an amazingly creative effect! :)
+
+![Components](/screenshots/2019-03-09%20(6).png)
 
 · How to build a nice pop-up with only CSS
 · How to create the :target pseudo-class
@@ -64,45 +72,4 @@ Advanced Responsive Design
 · How to use a powerful Sass mixin to write all the media queries
 · How to use the @content and @if Sass directives
 · Taking advantage of Chrome DevTools for responsive design
-· 
-· 
-· 
-· 
-· 
-· 
-· 
-· 
-· 
-· 
-· 
-· 
-· 
-· 
-· 
-· 
-· 
-· 
-· 
-· 
-· 
-· 
-· 
-· 
-· 
-· 
-· 
-· 
-· 
-· 
-· 
-· 
-· 
-· 
-· 
-· 
-· 
-· 
-· 
-· 
-· 
-· 
+
