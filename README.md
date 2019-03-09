@@ -3,6 +3,7 @@ This is a list of the topics regarding this specific project, covered by Jason S
 
 The project is written in Sass and follows the 7-1 CSS Architecture.
 
+[See this project live](https://cristianioanin.github.io/Natours/)
 
 · Basic reset using the universal selector
 · How to set project-wide font definitions
